@@ -5,9 +5,9 @@ const Cafe = require('./cafe')
 const eren = new Person('Eren Mercan', 'Şişli')
 const cafe = new Cafe('Petra Roasting Co', 'Beşiktaş')
 
-eren.find(eren, 'Bostanlı')
-eren.find(eren, 'Bayraklı')
-eren.find(eren, 'Alsancak')
+eren.find(cafe, 'Bostanlı')
+eren.find(cafe, 'Bayraklı')
+eren.find(cafe, 'Alsancak')
 
 
 function printFinding(finding){
