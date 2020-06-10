@@ -12,7 +12,7 @@ eren.find(eren, 'Alsancak')
 
 function printFinding(finding){
 
-console.log(`${colors.blue(finding.person.name)}(${colors.bgRed.white(finding.person.location)}) found ${colors.blue(cafe.name)} in ${colors.bgRed.white(cafe.location)} as the closest 'available' coffee shop.`)
+console.log(`${colors.blue(finding.person.name)}(${colors.bgRed.white(finding.person.location)}) found ${colors.blue(finding.cafe.name)} in ${colors.bgRed.white(finding.cafe.location)} as the closest 'available' coffee shop.`)
 }
 
 function printFindingHistory(person){
