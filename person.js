@@ -7,8 +7,8 @@ class Person{
         this.findings = []
     }
 
-    find(cafe,location){
-        const finding = new Finding(cafe,this,location)
+    find(cafe){
+        const finding = new Finding(this,cafe)
 
         this.findings.push(finding)
 
